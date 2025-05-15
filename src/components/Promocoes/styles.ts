@@ -6,7 +6,7 @@ export const Sessao_Promocoes = styled.section`
   width: 100%;
   color: ${cores.marrom};
   text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 
   h2 {
     font-family: 'Rochester', cursive;
@@ -16,8 +16,7 @@ export const Sessao_Promocoes = styled.section`
     display: inline-block;
     margin-bottom: 40px;
   }
-
-  span {
-    text-decoration: line-through;
-  }
+`
+export const PrecoPromocao = styled.span`
+  text-decoration: line-through;
 `

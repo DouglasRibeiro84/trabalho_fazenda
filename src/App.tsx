@@ -1,24 +1,39 @@
+import { Provider } from 'react-redux'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 
-import Banner from './components/Banner'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import Produtos from './components/Produtos'
-import Promocoes from './components/Promocoes'
 import { GlobalCss, Container } from './styles'
+
+import store from './store'
+import Home from './pages/Home'
+import Layout from './pages/Layout'
+import PageCarrinho from './pages/PageCarrinho'
+
+const rotas = createBrowserRouter([
+  {
+    path: '/',
+    element: <Layout />,
+    children: [
+      {
+        index: true,
+        element: <Home />
+      },
+      {
+        path: 'carrinho',
+        element: <PageCarrinho />
+      }
+    ]
+  }
+])
 
 function App() {
   return (
-    <>
+    <Provider store={store}>
       <GlobalCss />
       <Container>
-        <Header />
-        <Banner />
-        <Produtos />
-        <Promocoes />
-        <Footer />
+        <RouterProvider router={rotas} />
       </Container>
-    </>
+    </Provider>
   )
 }
 

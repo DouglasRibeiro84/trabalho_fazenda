@@ -1,6 +1,6 @@
 import { Imagem, Titulo } from './styles'
 
-import bannerImg from '../../assets/images/banner.webp'
+import bannerImg from '../../assets/images/banner.gif'
 
 const Banner = () => (
   <Imagem style={{ backgroundImage: `url(${bannerImg})` }}>
