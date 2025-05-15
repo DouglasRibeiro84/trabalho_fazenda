@@ -48,7 +48,7 @@ export const IconeBase = styled.button`
 
   @media (max-width: 748px) {
     i {
-      font-size: 24px;
+      font-size: 20px;
     }
   }
 `
@@ -94,6 +94,7 @@ export const ContainerProdutos = styled.div`
 
   @media (max-width: 748px) {
     width: 90%;
+    padding-bottom: 24px;
   }
 `
 export const ProdutosItens = styled.ul`
