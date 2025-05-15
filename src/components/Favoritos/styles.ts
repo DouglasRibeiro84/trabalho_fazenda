@@ -123,10 +123,6 @@ export const ItensFavoritos = styled.ul`
           font-size: 16px;
         }
       }
-      .btn-carrinho-wrapper {
-        width: 100%;
-        margin-top: auto;
-      }
     }
   }
 `

@@ -18,6 +18,7 @@ export const ContainerCarrinho = styled.section`
 
   @media (max-width: 768px) {
     width: 90%;
+    margin-top: 130px;
   }
 `
 

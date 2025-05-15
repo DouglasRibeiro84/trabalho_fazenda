@@ -102,16 +102,14 @@ const Favoritos = ({ visivel, toggleFavoritos }: Props) => {
                     <span className="preco">R${item.valor}</span>
                   )}
                 </div>
-                <div className="btn-carrinho-wrapper">
-                  <BtnCarrinho
-                    onClick={() => handleAdicionarAoCarrinho(item)}
-                    isClicked={clicados.includes(item.id)}
-                  >
-                    {clicados.includes(item.id)
-                      ? 'Adicionado'
-                      : 'Adicionar ao carrinho'}
-                  </BtnCarrinho>
-                </div>
+                <BtnCarrinho
+                  onClick={() => handleAdicionarAoCarrinho(item)}
+                  isClicked={clicados.includes(item.id)}
+                >
+                  {clicados.includes(item.id)
+                    ? 'Adicionado'
+                    : 'Adicionar ao carrinho'}
+                </BtnCarrinho>
               </div>
               <BtnFavoritos
                 onClick={() => handleRemoverComAnimacao(item.id)}
