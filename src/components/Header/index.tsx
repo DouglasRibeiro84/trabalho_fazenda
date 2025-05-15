@@ -8,7 +8,8 @@ import {
   Links,
   LinkItem,
   LinkPage,
-  Hamburguer
+  Hamburguer,
+  LinkTitulo
 } from './styles'
 
 import 'bootstrap-icons/font/bootstrap-icons.css'
@@ -32,7 +33,9 @@ const Header = ({ toggleFavoritos }: HeaderProps) => {
       <ContainerHeader>
         <LogoContainer>
           <img src={logo} alt="Do Sitio para você" />
-          <h1>Do sitio para você</h1>
+          <LinkTitulo to="/">
+            <h1>Do sitio para você</h1>
+          </LinkTitulo>
           <Hamburguer onClick={() => setMenuAberto(!menuAberto)}>
             <i className="bi bi-list" />
           </Hamburguer>

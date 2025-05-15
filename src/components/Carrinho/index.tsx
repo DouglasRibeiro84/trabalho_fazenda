@@ -30,7 +30,7 @@ const Carrinho = () => {
     )
 
     const mensagem = itensCarrinho
-      .map((item, index) => {
+      .map((item) => {
         return `• *${item.nome}*\n  Quantidade: ${
           item.quantidade
         }\n  Valor unitário: R$ ${item.preco.toFixed(2)}\n  Subtotal: R$ ${(
@@ -40,7 +40,7 @@ const Carrinho = () => {
       .join('\n\n')
 
     const mensagemCompleta =
-      `Olá! Segue abaixo o detalhamento do seu pedido:\n\n` +
+      `Olá! Segue abaixo o detalhamento do meu pedido:\n\n` +
       mensagem +
       `\n\n*Total do pedido:* R$ ${valorTotal.toFixed(2)}\n\n` +
       `Caso tenha alguma dúvida ou deseje confirmar, por favor, me avise. Estou à disposição para ajudar!\n\n` +

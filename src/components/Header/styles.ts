@@ -27,14 +27,6 @@ export const HeaderBar = styled.header`
     width: 70px;
   }
 
-  h1 {
-    font-family: 'Rochester', cursive;
-    margin-left: 30px;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 1;
-  }
-
   @media (max-width: 748px) {
     padding: 0 12px;
     padding-top: 12px;
@@ -178,5 +170,14 @@ export const Hamburguer = styled.button`
 
   @media (max-width: 748px) {
     display: block;
+  }
+`
+export const LinkTitulo = styled(Link)`
+  h1 {
+    font-family: 'Rochester', cursive;
+    margin-left: 30px;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 1;
   }
 `
