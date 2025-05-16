@@ -46,7 +46,7 @@ const Carrinho = () => {
       `Caso tenha alguma dúvida ou deseje confirmar, por favor, me avise. Estou à disposição para ajudar!\n\n` +
       `Obrigado pela preferência!`
 
-    const url = `https://wa.me/41996674903?text=${encodeURIComponent(
+    const url = `https://wa.me/4198544631?text=${encodeURIComponent(
       mensagemCompleta
     )}`
 

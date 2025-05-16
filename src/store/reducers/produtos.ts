@@ -6,6 +6,10 @@ import compota from '../../assets/images/compota_de_manga.jpg'
 import doce from '../../assets/images/doce_de_leite.jpg'
 import geleiaMorango from '../../assets/images/geleia_de_morango.jpg'
 import granola from '../../assets/images/granola.jpg'
+import paoMel from '../../assets/images/pao_mel.jpg'
+import boloCenoura from '../../assets/images/bolo_cenoura.jpg'
+import manteiga from '../../assets/images/manteiga.jpg'
+import boloMilho from '../../assets/images/bolo_milho.jpg'
 
 const initialState: Produto[] = [
   {
@@ -47,6 +51,38 @@ const initialState: Produto[] = [
       'Granola caseira, feita com aveia sem glúten, mel e frutas secas selecionadas. Crocante e nutritiva, é perfeita para acompanhar iogurtes, frutas ou como um lanche saudável no dia a dia. Sem conservantes e cheia de sabor natural.',
     valor: 16.0,
     id: 5
+  },
+  {
+    nome: 'Pão de Mel Artesanal',
+    imagem: paoMel,
+    descricao:
+      'Pão de mel recheado com doce de leite e cobertura de chocolate meio amargo. Uma delícia artesanal, perfeita para o café da tarde.',
+    valor: 7.5,
+    id: 6
+  },
+  {
+    nome: 'Bolo de Cenoura com Cobertura',
+    imagem: boloCenoura,
+    descricao:
+      'Bolo caseiro de cenoura com cobertura de chocolate. Receita tradicional com ingredientes naturais e muito sabor.',
+    valor: 16.5,
+    id: 7
+  },
+  {
+    nome: 'Manteiga Caseira com Sal',
+    imagem: manteiga,
+    descricao:
+      'Manteiga artesanal feita com creme de leite fresco e uma pitada de sal. Textura cremosa e sabor marcante. Sem conservantes.',
+    valor: 18.5,
+    id: 8
+  },
+  {
+    nome: 'Bolo de Milho Cremoso',
+    imagem: boloMilho,
+    descricao:
+      'Bolo de milho cremoso feito com milho verde natural e leite de coco. Uma receita tradicional com sabor de roça.',
+    valor: 15.0,
+    id: 9
   }
 ]
 

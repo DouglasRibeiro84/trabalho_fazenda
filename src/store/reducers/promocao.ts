@@ -6,6 +6,10 @@ import leiteAmendoas from '../../assets/images/leite_amedoas.jpg'
 import manteigacacau from '../../assets/images/manteiga_cacau.jpg'
 import mixCastanhas from '../../assets/images/mix_castanhas.jpg'
 import cafeOrganico from '../../assets/images/cafe_organico.jpg'
+import torradaAlho from '../../assets/images/torrada.jpg'
+import pateTomateSeco from '../../assets/images/pate_tomate.jpg'
+import rocamboleChocolate from '../../assets/images/rocambole.jpg'
+import paoCaseiro from '../../assets/images/pao.jpg'
 
 const initialState: Promocao[] = [
   {
@@ -52,6 +56,42 @@ const initialState: Promocao[] = [
     valorOriginal: 18.9,
     id: 14,
     valorComDesconto: 19.99
+  },
+  {
+    nome: 'Torrada de Alho Artesanal',
+    imagem: torradaAlho,
+    descricao:
+      'Torradas crocantes temperadas com alho e azeite de oliva. Ótimas para aperitivos ou para acompanhar sopas.',
+    valorOriginal: 8.0,
+    id: 15,
+    valorComDesconto: 5.99
+  },
+  {
+    nome: 'Patê de Tomate Seco',
+    imagem: pateTomateSeco,
+    descricao:
+      'Patê cremoso à base de tomate seco e ervas finas. Ideal para servir com pães, torradas e como recheio.',
+    valorOriginal: 10.0,
+    id: 16,
+    valorComDesconto: 6.99
+  },
+  {
+    nome: 'Rocambole de Chocolate',
+    imagem: rocamboleChocolate,
+    descricao:
+      'Rocambole de massa leve recheado com creme de chocolate e coberto com ganache. Sabor irresistível.',
+    valorOriginal: 20.0,
+    id: 17,
+    valorComDesconto: 15.99
+  },
+  {
+    nome: 'Pão Caseiro com Fermentação Natural',
+    imagem: paoCaseiro,
+    descricao:
+      'Pão artesanal com casca crocante e miolo macio, feito com fermentação natural e farinha de trigo selecionada.',
+    valorOriginal: 24.0,
+    id: 18,
+    valorComDesconto: 13.99
   }
 ]
 

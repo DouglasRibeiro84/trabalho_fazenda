@@ -140,7 +140,6 @@ export const LinkItem = styled.li`
     right: -6px;
     top: -6px;
     background-color: ${cores.marrom};
-    opacity: 0.9;
     color: ${cores.branca};
     border-radius: 50%;
     padding: 4px 6px;
