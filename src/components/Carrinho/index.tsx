@@ -123,7 +123,7 @@ const Carrinho = () => {
       </ValorFinal>
 
       <BtnComprar onClick={gerarMensagemWhatsApp}>
-        Enviar Pedido para o WhatsApp
+        Enviar Pedido para o WhatsApp <i className="bi bi-whatsapp"></i>
       </BtnComprar>
     </ContainerCarrinho>
   )

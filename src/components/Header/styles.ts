@@ -172,6 +172,8 @@ export const Hamburguer = styled.button`
   }
 `
 export const LinkTitulo = styled(Link)`
+  display: flex;
+  align-items: center;
   h1 {
     font-family: 'Rochester', cursive;
     margin-left: 30px;

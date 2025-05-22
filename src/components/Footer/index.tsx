@@ -17,10 +17,10 @@ const Footer = () => (
           </div>
           <div className="numeros">
             <p>
-              <i className="bi bi-telephone-forward"></i>(41) 99664455
+              <i className="bi bi-telephone-forward"></i>(41) 96110378
             </p>
             <p>
-              <i className="bi bi-whatsapp"></i>(41) 99664455
+              <i className="bi bi-whatsapp"></i>(41) 96110378
             </p>
             <p>
               <i className="bi bi-envelope-at"></i>contato@teste.com
@@ -39,7 +39,7 @@ const Footer = () => (
           </div>
           <div>
             <h4>Endereço</h4>
-            <p>Rua teste 123 - Curitiba - PR</p>
+            <p>Loanda Paraná, 87900-000</p>
           </div>
         </RedesEndereco>
       </ContainerFooter>

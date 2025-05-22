@@ -32,8 +32,8 @@ const Header = ({ toggleFavoritos }: HeaderProps) => {
     <HeaderBar>
       <ContainerHeader>
         <LogoContainer>
-          <img src={logo} alt="Do Sitio para você" />
           <LinkTitulo to="/">
+            <img src={logo} alt="Do Sitio para você" />
             <h1>Do sitio para você</h1>
           </LinkTitulo>
           <Hamburguer onClick={() => setMenuAberto(!menuAberto)}>
